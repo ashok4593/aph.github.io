@@ -1,0 +1,123 @@
+/* styling container */
+#form-container {
+  width: 800px;
+  padding: 60px 30px;
+	background: #FAFAFA;
+	/* padding: 30px; */
+	margin: 85px auto;
+	box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.35);
+	border-radius: 10px;
+	border: 6px solid #305A72;
+  margin-bottom: 10px;
+}
+#form-container h1 {
+  /* font-size: 2rem; */
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+/* styling form lables and input */
+.form-section,
+.checkbox-section {
+  padding: 10px 0px;
+  height: 40px;
+  /* display: flex;
+  justify-content: space-between; */
+}
+.form-section input,
+.form-section textarea {
+  flex-basis: 65%;
+   height: 25px;
+  width: 60%;
+  float: right; 
+  box-sizing: border-box; 
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box; 
+	padding: 8px;
+	outline: none;
+	border: 1px solid #B0CFE0;
+	-webkit-transition: all 0.30s ease-in-out;
+	-moz-transition: all 0.30s ease-in-out;
+	-ms-transition: all 0.30s ease-in-out;
+	-o-transition: all 0.30s ease-in-out;
+}
+.form-section input:focus,
+.form-section textarea:focus{
+  box-shadow: 0 0 5px #B0CFE0;
+	border:1px solid #B0CFE0;
+}
+.form-section textarea {
+  height: 50px;
+}
+.form-section label {
+  /* flex-basis: 30%; */
+  width: 30%;
+  font-size: 1.4rem;
+  padding: 0px 15px;
+}
+/* styling submit button */
+input[type="submit"] {
+  display: block;
+  width: 100px;
+  margin: 30px auto;
+  text-align: center;
+  font-size: 1.3rem;
+  -moz-box-shadow: inset 0px 1px 0px 0px #3985B1;
+	-webkit-box-shadow: inset 0px 1px 0px 0px #3985B1;
+	box-shadow: inset 0px 1px 0px 0px #3985B1;
+	background-color: #216288;
+	border: 1px solid #17445E;
+	/* display: inline-block; */
+	cursor: pointer;
+	color: #FFFFFF;
+	padding: 8px 18px;
+	text-decoration: none;
+}
+
+input[type="submit"]:hover{
+  background: linear-gradient(to bottom, #2D77A2 5%, #337DA8 100%);
+	background-color: #28739E;
+}
+
+/* styling checkboxes */
+.checkbox-section {
+  margin-top: 5px;
+}
+.checkbox-section label {
+  width: 80%;
+  font-size: 1.4rem;
+}
+.checkbox-section input {
+  padding: 0px 20px;
+}
+.error-mssg {
+  height: 10px;
+  width: 60%;
+  float: right;
+  margin-top: 2px;
+  color: rgb(201, 25, 25);
+  font-size: 1rem;
+}
+.friendly-mssg {
+  /* height: 10px; */
+  /* width: 60%; */
+  margin-top: 5px;
+  color: orange;
+  font-size: 1.5rem;
+  float :left;
+}
+.hide {
+  visibility: hidden;
+  position: fixed;
+  top: 30px;
+}
+
+#message {
+  width: 75%;
+  background-color: blue;
+  margin: 30px auto;
+  padding: 50px;
+  text-align: center;
+  font-size: 1.25rem;
+  background-color: rgb(32, 236, 32);
+}
